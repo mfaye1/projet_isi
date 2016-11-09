@@ -235,3 +235,7 @@ var P86_TP_forfaits = [
         photo_cat: "images/categorie/iceberg_02.jpg"
     }
 ];
+
+for(var i=0;i<P86_TP_forfaits.length;i++){
+    P86_TP_forfaits[i].nom
+};
