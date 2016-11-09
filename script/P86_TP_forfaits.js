@@ -237,5 +237,5 @@ var P86_TP_forfaits = [
 ];
 
 for(var i=0;i<P86_TP_forfaits.length;i++){
-    P86_TP_forfaits[i].nom
-};
+    document.write(P86_TP_forfaits[i].nom);
+}
