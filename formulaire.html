@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style/main.css" />
+</head>
+<body>
+
+<div id="contenu">
+    <form id="form_resa" name="form_resa">
+        <div>
+            <label for="nom">Nom:</label>
+            <input name="nom" id="nom" type="text"/>
+        </div>
+        <div>
+            <label for="email">Courriel:</label>
+            <input name="email" id="email" type="text"/>
+        </div>
+        <div>
+            <label for="website">Site web:</label>
+            <input name="website" id="website" type="text"/>
+        </div>
+        <div>
+            <label for="date_commande">Date :</label>
+            <input type="text" name="date_commande" id="date_commande"/>
+        </div>
+        <div>
+            <label for="sexe_h">Homme:</label>
+            <input type="radio" name="sexe" id="sexe_h" value="sexe_h"/>
+            <br/>
+            <label for="sexe_f">Femme:</label>
+            <input type="radio" name="sexe" id="sexe_f" value="sexe_f"/>
+        </div>
+        <div>
+            <label for="ville">Pays:</label>
+            <select name="ville" id="ville">
+                <option>France</option>
+                <option>Mali</option>
+                <option>Suisse</option>
+                <option>Bresil</option>
+            </select>
+
+        </div>
+        <div>
+            <label for="sports">Choisir:</label>
+            <select name="sports" id="sports" multiple="multiple" size="5">
+                <option>Forfait1</option>
+                <option>Forfait2</option>
+                <option>Forfait3</option>
+            </select>
+
+        </div>
+        <div>
+            <label for="commentaire">Commentaire:</label>
+            <textarea rows="10" cols="50" name="commentaire" id="commentaire"></textarea>
+        </div>
+        <div>
+            <label for="accepte">J'accepte les conditions:</label>
+            <input type="checkbox" name="accepte" id="accepte" type="text" value="accepte"/>
+        </div>
+        <div>
+            <input type="submit" value="Réserver" />
+        </div>
+    </form>
+</div>
+</div>
+<script src="script/main.js"></script>
+<script src="script/main_form.js"> </script>
+</body>
+</html>
